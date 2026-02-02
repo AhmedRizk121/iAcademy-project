@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Geom:ital,wght@0,300..900;1,300..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+NZ+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    font-family: "Geom", sans-serif;
+    background-color: #eeeff1;
+    text-align: center;
+}
+
+.price h1 {
+    color: #00000078;
+}
+
+.price h3 {
+    color: orangered;
+}
+
+a {
+    margin-top: 20px;
+    color: orangered;
+    text-decoration: none;
+    padding: 5px 70px;
+    background-color: #ddddddaf;
+    border-radius: 50px;
+    transition: .5s;
+    transform: rotateX('angle');
+}
+
+a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.container {
+    padding-top: 20px;
+    justify-self: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 60px;
+    margin-top: -15px;
+    background-color: rgba(255, 255, 255, 0.499);
+    height: 640px;
+    border-radius: 20px;
+}
+
+.container .logo {
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container i {
+    border: 1px solid rgba(0, 255, 255, 0.443);
+    border-radius: 50px;
+    padding: 5px;
+    color: orangered;
+}
+
+.container .first {
+
+    margin-top: 20px 0px;
+    border-radius: 10px;
+    width: 25%;
+    background-color: #fdf7f3;
+    height: 620px;
+}
+
+.container .f {
+    padding: 10px 0px;
+    border-bottom: .5px dashed rgba(0, 0, 0, 0.282);
+}
