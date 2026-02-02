@@ -181,3 +181,65 @@ form input {
     color: #2563eb;
     text-decoration: none;
 }
+
+
+
+
+@media (max-width: 1024px) {
+    .page {
+        padding: 0 20px;
+    }
+
+    .left {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        overflow: auto;
+    }
+
+    .page {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .left {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .left h1 {
+        font-size: 32px;
+    }
+
+    .left p {
+        max-width: 100%;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .right {
+        width: 100%;
+        box-shadow: none;
+        padding: 30px 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+        padding: 14px;
+    }
+
+    .social {
+        flex-direction: column;
+    }
+}

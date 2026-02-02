@@ -72,3 +72,43 @@ a:hover {
     padding: 10px 0px;
     border-bottom: .5px dashed rgba(0, 0, 0, 0.282);
 }
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .container .first {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px 10px;
+    }
+
+    .container .first {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .container .logo {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    a {
+        display: inline-block;
+        padding: 10px 40px;
+    }
+}
