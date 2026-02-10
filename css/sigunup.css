@@ -84,7 +84,7 @@ a {
     width: 420px;
     background: #fff;
     padding: 50px 40px;
-    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.406);
 }
 
 .right h2 {
