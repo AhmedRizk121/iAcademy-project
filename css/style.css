@@ -198,6 +198,8 @@ footer {
     background: #020a2e;
     padding: 60px 40px;
     color: #aaa;
+    cursor: pointer;
+    transition: .2s;
 }
 
 footer section {
@@ -210,6 +212,12 @@ footer .c {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+}
+
+footer p:hover
+{
+    color: white;
+    text-decoration: underline #004cc7;
 }
 
 .logos {
